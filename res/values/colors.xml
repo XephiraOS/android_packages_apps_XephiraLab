@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 XephiraOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <color name="xephira_crimson_red">#E60026</color>
+    <color name="xephira_neon_cyan">#00F2FE</color>
+    <color name="xephira_amethyst_purple">#A855F7</color>
+    <color name="xephira_aurora_green">#10B981</color>
+    <color name="xephira_amber_gold">#F59E0B</color>
+
+    <color name="xephira_lab_bg_dark">#0D111A</color>
+    <color name="xephira_lab_card_bg">#1A1D2B</color>
+    <color name="xephira_lab_card_stroke">#33FFFFFF</color>
+
+    <color name="xephira_lab_text_primary">#F2FFFFFF</color>
+    <color name="xephira_lab_text_secondary">#99FFFFFF</color>
+    <color name="xephira_lab_text_muted">#66FFFFFF</color>
+</resources>

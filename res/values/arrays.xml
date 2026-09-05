@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 XephiraOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string-array name="curvature_style_entries">
+        <item>Continuous Superellipse (Lamé n=4 • OxygenOS 17)</item>
+        <item>Fluid Apple Squircle (Continuous G2 Continuity)</item>
+        <item>Rounded Precision (Standard 32dp)</item>
+    </string-array>
+
+    <string-array name="curvature_style_values">
+        <item>superellipse_n4</item>
+        <item>fluid_apple</item>
+        <item>rounded_precision</item>
+    </string-array>
+
+    <string-array name="ram_boost_entries">
+        <item>Disabled (Physical Only)</item>
+        <item>+ 4 GB Liquid Expansion</item>
+        <item>+ 8 GB Liquid Expansion</item>
+        <item>+ 12 GB Liquid Boost (Flagship Recommended)</item>
+    </string-array>
+
+    <string-array name="ram_boost_values">
+        <item>0</item>
+        <item>4</item>
+        <item>8</item>
+        <item>12</item>
+    </string-array>
+</resources>

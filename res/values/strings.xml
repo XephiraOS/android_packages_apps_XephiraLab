@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 XephiraOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="xephira_lab_title">Xephira Lab</string>
+    <string name="xephira_lab_summary">OxygenOS 17 &amp; iOS 18 Spatial Liquid Glass Studio</string>
+
+    <!-- Categories -->
+    <string name="category_liquid_optics">Liquid Glass Optics</string>
+    <string name="category_spring_physics">Spatial Kinetic Physics</string>
+    <string name="category_curvature_engine">Continuous Curvature Engine</string>
+    <string name="category_flux_hardware">Flux Silicon &amp; Memory</string>
+
+    <!-- Liquid Optics -->
+    <string name="blur_radius_title">Gaussian Blur Intensity</string>
+    <string name="blur_radius_summary">Tune real-time SurfaceFlinger background glass blur (0 - 48 dp)</string>
+    <string name="specular_refraction_title">Specular Edge Reflection</string>
+    <string name="specular_refraction_summary">Render dynamic light reflection on squircle card borders</string>
+    <string name="chromatic_dispersion_title">Chromatic Aberration</string>
+    <string name="chromatic_dispersion_summary">Subtle prism refraction along high-contrast card outlines</string>
+
+    <!-- Spring Dynamics -->
+    <string name="spring_dynamics_title">120Hz ProMotion Spring Physics</string>
+    <string name="spring_dynamics_summary">Apple iOS 18 fluid gesture response with bouncy deceleration</string>
+    <string name="predictive_back_fluid_title">Spatial Predictive Back</string>
+    <string name="predictive_back_fluid_summary">Liquid card transformation and scaling during swipe gestures</string>
+
+    <!-- Curvature Engine -->
+    <string name="superellipse_exponent_title">Continuous Superellipse Radius</string>
+    <string name="superellipse_exponent_summary">Curvature standard: Lamé curve exponent n=4 squircle</string>
+
+    <!-- Hardware & Memory -->
+    <string name="ram_boost_title">Liquid RAM Boost Expansion</string>
+    <string name="ram_boost_summary">Allocate intelligent high-speed zRAM swap (+4GB, +8GB, +12GB)</string>
+    <string name="soc_governor_title">Hyper-Rendering Governor</string>
+    <string name="soc_governor_summary">OxygenOS 17 Trinity Engine frame pacing for 120 FPS gaming</string>
+</resources>

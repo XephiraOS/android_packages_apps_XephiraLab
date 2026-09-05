@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 XephiraOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Category 1: Liquid Glass Optics -->
+    <PreferenceCategory
+        android:title="@string/category_liquid_optics"
+        app:iconSpaceReserved="false">
+
+        <SeekBarPreference
+            android:key="pref_blur_radius"
+            android:title="@string/blur_radius_title"
+            android:summary="@string/blur_radius_summary"
+            android:defaultValue="28"
+            android:max="48"
+            app:min="0"
+            app:showSeekBarValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_specular_refraction"
+            android:title="@string/specular_refraction_title"
+            android:summary="@string/specular_refraction_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_chromatic_dispersion"
+            android:title="@string/chromatic_dispersion_title"
+            android:summary="@string/chromatic_dispersion_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <!-- Category 2: Spatial Kinetic Physics -->
+    <PreferenceCategory
+        android:title="@string/category_spring_physics"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:key="pref_spring_dynamics"
+            android:title="@string/spring_dynamics_title"
+            android:summary="@string/spring_dynamics_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_predictive_back_fluid"
+            android:title="@string/predictive_back_fluid_title"
+            android:summary="@string/predictive_back_fluid_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <!-- Category 3: Continuous Curvature Studio -->
+    <PreferenceCategory
+        android:title="@string/category_curvature_engine"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:key="pref_curvature_style"
+            android:title="@string/superellipse_exponent_title"
+            android:summary="@string/superellipse_exponent_summary"
+            android:defaultValue="superellipse_n4"
+            android:entries="@array/curvature_style_entries"
+            android:entryValues="@array/curvature_style_values" />
+    </PreferenceCategory>
+
+    <!-- Category 4: Flux Silicon & Memory -->
+    <PreferenceCategory
+        android:title="@string/category_flux_hardware"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:key="pref_ram_boost"
+            android:title="@string/ram_boost_title"
+            android:summary="@string/ram_boost_summary"
+            android:defaultValue="12"
+            android:entries="@array/ram_boost_entries"
+            android:entryValues="@array/ram_boost_values" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_soc_governor"
+            android:title="@string/soc_governor_title"
+            android:summary="@string/soc_governor_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
