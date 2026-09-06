@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 XephiraOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/header_core_parameters"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:key="pref_accent_preset"
+            android:title="@string/accent_preset_title"
+            android:summary="@string/accent_preset_summary"
+            android:defaultValue="crimson"
+            android:entries="@array/accent_preset_entries"
+            android:entryValues="@array/accent_preset_values" />
+
+        <ListPreference
+            android:key="pref_dark_mode_depth"
+            android:title="@string/dark_mode_depth_title"
+            android:summary="@string/dark_mode_depth_summary"
+            android:defaultValue="obsidian"
+            android:entries="@array/dark_mode_depth_entries"
+            android:entryValues="@array/dark_mode_depth_values" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/header_advanced_tuning"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:key="pref_statusbar_pill"
+            android:title="@string/statusbar_pill_title"
+            android:summary="@string/statusbar_pill_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

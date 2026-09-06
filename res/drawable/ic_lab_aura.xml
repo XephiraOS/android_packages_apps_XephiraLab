@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 XephiraOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="44dp"
+    android:height="44dp"
+    android:viewportWidth="44"
+    android:viewportHeight="44">
+    <!-- Continuous Superellipse Squircle (Amethyst Purple) -->
+    <path
+        android:fillColor="#AF52DE"
+        android:pathData="M22,2 C9,2 2,9 2,22 C2,35 9,42 22,42 C35,42 42,35 42,22 C42,9 35,2 22,2 Z" />
+    <!-- Color Palette & Aura Sparkles -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M22,12 C16.5,12 12,16.5 12,22 C12,27.5 16.5,32 22,32 C22.9,32 23.7,31.3 23.7,30.3 C23.7,29.9 23.5,29.5 23.3,29.1 C23,28.7 22.8,28.3 22.8,27.8 C22.8,26.8 23.6,26 24.6,26 L26.2,26 C29.4,26 32,23.4 32,20.2 C32,15.7 27.5,12 22,12 Z M16.5,20 C15.7,20 15,19.3 15,18.5 C15,17.7 15.7,17 16.5,17 C17.3,17 18,17.7 18,18.5 C18,19.3 17.3,20 16.5,20 Z M20.5,17 C19.7,17 19,16.3 19,15.5 C19,14.7 19.7,14 20.5,14 C21.3,14 22,14.7 22,15.5 C22,16.3 21.3,17 20.5,17 Z M25.5,17 C24.7,17 24,16.3 24,15.5 C24,14.7 24.7,14 25.5,14 C26.3,14 27,14.7 27,15.5 C27,16.3 26.3,17 25.5,17 Z" />
+</vector>

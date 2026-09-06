@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 XephiraOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="44dp"
+    android:height="44dp"
+    android:viewportWidth="44"
+    android:viewportHeight="44">
+    <!-- Continuous Superellipse Squircle (Aquamorphic Cyan) -->
+    <path
+        android:fillColor="#00C7BE"
+        android:pathData="M22,2 C9,2 2,9 2,22 C2,35 9,42 22,42 C35,42 42,35 42,22 C42,9 35,2 22,2 Z" />
+    <!-- Curvature Superellipse Geometry -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M22,12 C15,12 12,15 12,22 C12,29 15,32 22,32 C29,32 32,29 32,22 C32,15 29,12 22,12 Z M22,29 C17,29 15,27 15,22 C15,17 17,15 22,15 C27,15 29,17 29,22 C29,27 27,29 22,29 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M21,17 L23,17 L23,27 L21,27 Z M17,21 L27,21 L27,23 L17,23 Z" />
+</vector>

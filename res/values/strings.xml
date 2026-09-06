@@ -7,33 +7,73 @@
     <string name="xephira_lab_title">Xephira Lab</string>
     <string name="xephira_lab_summary">OxygenOS 17 &amp; iOS 18 Spatial Liquid Glass Studio</string>
 
-    <!-- Categories -->
-    <string name="category_liquid_optics">Liquid Glass Optics</string>
-    <string name="category_spring_physics">Spatial Kinetic Physics</string>
-    <string name="category_curvature_engine">Continuous Curvature Engine</string>
-    <string name="category_flux_hardware">Flux Silicon &amp; Memory</string>
+    <!-- Sub-Menu Hub Titles & Summaries -->
+    <string name="submenu_optics_title">Liquid Glass &amp; Optics</string>
+    <string name="submenu_optics_summary">SurfaceFlinger blur radius, specular edge refraction, chromatic dispersion</string>
 
-    <!-- Liquid Optics -->
+    <string name="submenu_kinetic_title">Spatial Kinetic Physics</string>
+    <string name="submenu_kinetic_summary">120Hz ProMotion spring dynamics, fluid gesture elasticity</string>
+
+    <string name="submenu_curvature_title">Continuous Curvature Studio</string>
+    <string name="submenu_curvature_summary">Lamé curve n=4 squircle exponents, corner radii &amp; card margins</string>
+
+    <string name="submenu_flux_title">Flux Silicon &amp; Memory Turbo</string>
+    <string name="submenu_flux_summary">Liquid RAM Boost (+12GB), Trinity Engine pacing, 480Hz touch sampling</string>
+
+    <string name="submenu_aura_title">Aura Accent &amp; Theming Studio</string>
+    <string name="submenu_aura_summary">Signature accents, spatial glass dark mode depth, status bar capsule</string>
+
+    <!-- Section Headers -->
+    <string name="header_core_parameters">Core Parameters</string>
+    <string name="header_advanced_tuning">Advanced Tuning</string>
+
+    <!-- 1. Liquid Optics -->
     <string name="blur_radius_title">Gaussian Blur Intensity</string>
     <string name="blur_radius_summary">Tune real-time SurfaceFlinger background glass blur (0 - 48 dp)</string>
+    <string name="blur_sample_rate_title">Blur Filter Sample Rate</string>
+    <string name="blur_sample_rate_summary">GPU downscaling pipeline optimized for locked 120 FPS</string>
     <string name="specular_refraction_title">Specular Edge Reflection</string>
-    <string name="specular_refraction_summary">Render dynamic light reflection on squircle card borders</string>
-    <string name="chromatic_dispersion_title">Chromatic Aberration</string>
-    <string name="chromatic_dispersion_summary">Subtle prism refraction along high-contrast card outlines</string>
+    <string name="specular_refraction_summary">Dynamic light refraction highlight on squircle card borders</string>
+    <string name="specular_intensity_title">Specular Highlight Brightness</string>
+    <string name="specular_intensity_summary">Adjust border specular stroke opacity (10% - 100%)</string>
+    <string name="chromatic_dispersion_title">Prism Chromatic Aberration</string>
+    <string name="chromatic_dispersion_summary">Subtle optical color dispersion along high-contrast card outlines</string>
+    <string name="frosted_grain_title">Frosted Glass Micro-Grain</string>
+    <string name="frosted_grain_summary">Organic micro-grain texture simulating physical etched glass</string>
 
-    <!-- Spring Dynamics -->
+    <!-- 2. Spring Dynamics -->
     <string name="spring_dynamics_title">120Hz ProMotion Spring Physics</string>
     <string name="spring_dynamics_summary">Apple iOS 18 fluid gesture response with bouncy deceleration</string>
+    <string name="spring_damping_title">Spring Damping Profile</string>
+    <string name="spring_damping_summary">Damping ratio: Fluid iOS Bouncy vs. Snappy OxygenOS Tactile</string>
     <string name="predictive_back_fluid_title">Spatial Predictive Back</string>
-    <string name="predictive_back_fluid_summary">Liquid card transformation and scaling during swipe gestures</string>
+    <string name="predictive_back_fluid_summary">Liquid card transformation and scaling during back swipe navigation</string>
+    <string name="touch_elasticity_title">Edge Over-scroll Rubber Banding</string>
+    <string name="touch_elasticity_summary">Fluid spring stretching on list and scrollview boundaries</string>
 
-    <!-- Curvature Engine -->
-    <string name="superellipse_exponent_title">Continuous Superellipse Radius</string>
-    <string name="superellipse_exponent_summary">Curvature standard: Lamé curve exponent n=4 squircle</string>
+    <!-- 3. Curvature Engine -->
+    <string name="superellipse_exponent_title">Continuous Superellipse Geometry</string>
+    <string name="superellipse_exponent_summary">Continuous curvature standard eliminating corner pinch (Lamé n=4)</string>
+    <string name="corner_radius_title">Global Squircle Corner Radius</string>
+    <string name="corner_radius_summary">Framework card and dialog curvature (24dp to 40dp)</string>
+    <string name="card_lateral_margin_title">Grouped Card Lateral Spacing</string>
+    <string name="card_lateral_margin_summary">Horizontal margin separation between floating cards</string>
 
-    <!-- Hardware & Memory -->
+    <!-- 4. Hardware & Memory -->
     <string name="ram_boost_title">Liquid RAM Boost Expansion</string>
     <string name="ram_boost_summary">Allocate intelligent high-speed zRAM swap (+4GB, +8GB, +12GB)</string>
-    <string name="soc_governor_title">Hyper-Rendering Governor</string>
-    <string name="soc_governor_summary">OxygenOS 17 Trinity Engine frame pacing for 120 FPS gaming</string>
+    <string name="soc_governor_title">Trinity Engine Pacing Governor</string>
+    <string name="soc_governor_summary">OxygenOS 17 frame pacing and drop suppression for locked 120 FPS</string>
+    <string name="touch_sampling_title">Hyper-Touch Sampling Rate</string>
+    <string name="touch_sampling_summary">240Hz everyday fluid response / 480Hz esports touch boost</string>
+    <string name="thermal_profile_title">Silicon Thermal &amp; Power Profile</string>
+    <string name="thermal_profile_summary">Dynamic liquid scaling vs. sustained high-performance turbo</string>
+
+    <!-- 5. Aura Theming -->
+    <string name="accent_preset_title">Signature Aura Accent</string>
+    <string name="accent_preset_summary">Curated OxygenOS 17 &amp; iOS 18 luminous accent colors</string>
+    <string name="dark_mode_depth_title">Spatial Dark Depth</string>
+    <string name="dark_mode_depth_summary">Deep Titanium Obsidian (#0D111A) vs. Pure OLED Midnight</string>
+    <string name="statusbar_pill_title">Liquid Glass Status Bar Capsule</string>
+    <string name="statusbar_pill_summary">Dynamic frosted pill enclosing clock, Wi-Fi, and battery telemetry</string>
 </resources>

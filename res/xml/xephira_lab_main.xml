@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 XephiraOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Live Telemetry & Glass Engine Hero Preview -->
+    <Preference
+        android:key="pref_hero_preview"
+        android:order="-100"
+        android:layout="@layout/xephira_lab_hero_preview"
+        android:selectable="false" />
+
+    <PreferenceCategory
+        android:title="CUSTOMIZATION DOMAINS"
+        app:iconSpaceReserved="false">
+
+        <!-- 1. Liquid Glass Optics -->
+        <Preference
+            android:key="sub_optics"
+            android:order="1"
+            android:icon="@drawable/ic_lab_optics"
+            android:title="@string/submenu_optics_title"
+            android:summary="@string/submenu_optics_summary"
+            android:fragment="org.xephira.lab.fragments.OpticsFragment" />
+
+        <!-- 2. Spatial Kinetic Physics -->
+        <Preference
+            android:key="sub_kinetic"
+            android:order="2"
+            android:icon="@drawable/ic_lab_kinetic"
+            android:title="@string/submenu_kinetic_title"
+            android:summary="@string/submenu_kinetic_summary"
+            android:fragment="org.xephira.lab.fragments.KineticFragment" />
+
+        <!-- 3. Continuous Curvature Studio -->
+        <Preference
+            android:key="sub_curvature"
+            android:order="3"
+            android:icon="@drawable/ic_lab_curvature"
+            android:title="@string/submenu_curvature_title"
+            android:summary="@string/submenu_curvature_summary"
+            android:fragment="org.xephira.lab.fragments.CurvatureFragment" />
+
+        <!-- 4. Flux Silicon & Memory Turbo -->
+        <Preference
+            android:key="sub_flux"
+            android:order="4"
+            android:icon="@drawable/ic_lab_flux"
+            android:title="@string/submenu_flux_title"
+            android:summary="@string/submenu_flux_summary"
+            android:fragment="org.xephira.lab.fragments.FluxFragment" />
+
+        <!-- 5. Aura Accent & Theming Studio -->
+        <Preference
+            android:key="sub_aura"
+            android:order="5"
+            android:icon="@drawable/ic_lab_aura"
+            android:title="@string/submenu_aura_title"
+            android:summary="@string/submenu_aura_summary"
+            android:fragment="org.xephira.lab.fragments.AuraFragment" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

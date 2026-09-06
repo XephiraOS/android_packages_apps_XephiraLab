@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 XephiraOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/header_core_parameters"
+        app:iconSpaceReserved="false">
+
+        <SeekBarPreference
+            android:key="pref_blur_radius"
+            android:title="@string/blur_radius_title"
+            android:summary="@string/blur_radius_summary"
+            android:defaultValue="28"
+            android:max="48"
+            app:min="0"
+            app:showSeekBarValue="true" />
+
+        <ListPreference
+            android:key="pref_blur_sample_rate"
+            android:title="@string/blur_sample_rate_title"
+            android:summary="@string/blur_sample_rate_summary"
+            android:defaultValue="2"
+            android:entries="@array/blur_sample_rate_entries"
+            android:entryValues="@array/blur_sample_rate_values" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/header_advanced_tuning"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:key="pref_specular_refraction"
+            android:title="@string/specular_refraction_title"
+            android:summary="@string/specular_refraction_summary"
+            android:defaultValue="true" />
+
+        <SeekBarPreference
+            android:key="pref_specular_intensity"
+            android:title="@string/specular_intensity_title"
+            android:summary="@string/specular_intensity_summary"
+            android:defaultValue="80"
+            android:max="100"
+            app:min="10"
+            app:showSeekBarValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_chromatic_dispersion"
+            android:title="@string/chromatic_dispersion_title"
+            android:summary="@string/chromatic_dispersion_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_frosted_grain"
+            android:title="@string/frosted_grain_title"
+            android:summary="@string/frosted_grain_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

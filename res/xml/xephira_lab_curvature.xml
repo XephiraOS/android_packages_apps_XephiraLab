@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 XephiraOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/header_core_parameters"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:key="pref_curvature_style"
+            android:title="@string/superellipse_exponent_title"
+            android:summary="@string/superellipse_exponent_summary"
+            android:defaultValue="superellipse_n4"
+            android:entries="@array/curvature_style_entries"
+            android:entryValues="@array/curvature_style_values" />
+
+        <ListPreference
+            android:key="pref_corner_radius"
+            android:title="@string/corner_radius_title"
+            android:summary="@string/corner_radius_summary"
+            android:defaultValue="32"
+            android:entries="@array/corner_radius_entries"
+            android:entryValues="@array/corner_radius_values" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/header_advanced_tuning"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:key="pref_card_lateral_margin"
+            android:title="@string/card_lateral_margin_title"
+            android:summary="@string/card_lateral_margin_summary"
+            android:defaultValue="16"
+            android:entries="@array/card_margin_entries"
+            android:entryValues="@array/card_margin_values" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

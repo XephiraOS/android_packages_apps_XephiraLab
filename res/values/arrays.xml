@@ -4,9 +4,10 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
+    <!-- Curvature Styles -->
     <string-array name="curvature_style_entries">
         <item>Continuous Superellipse (Lamé n=4 • OxygenOS 17)</item>
-        <item>Fluid Apple Squircle (Continuous G2 Continuity)</item>
+        <item>Fluid Apple Squircle (G2 Continuity)</item>
         <item>Rounded Precision (Standard 32dp)</item>
     </string-array>
 
@@ -16,6 +17,61 @@
         <item>rounded_precision</item>
     </string-array>
 
+    <!-- Corner Radius -->
+    <string-array name="corner_radius_entries">
+        <item>24 dp (Compact Sleek)</item>
+        <item>28 dp (Fluid Organic)</item>
+        <item>32 dp (Standard Flagship • Recommended)</item>
+        <item>36 dp (Ultra Curved)</item>
+    </string-array>
+
+    <string-array name="corner_radius_values">
+        <item>24</item>
+        <item>28</item>
+        <item>32</item>
+        <item>36</item>
+    </string-array>
+
+    <!-- Card Lateral Margins -->
+    <string-array name="card_margin_entries">
+        <item>12 dp (Compact Separation)</item>
+        <item>16 dp (Standard OxygenOS 17 • Recommended)</item>
+        <item>20 dp (Spacious Island)</item>
+    </string-array>
+
+    <string-array name="card_margin_values">
+        <item>12</item>
+        <item>16</item>
+        <item>20</item>
+    </string-array>
+
+    <!-- Blur Sample Rate -->
+    <string-array name="blur_sample_rate_entries">
+        <item>Optimized 2x (Maximum 120 FPS Efficiency)</item>
+        <item>Quality 1x (Native Super-Sampled)</item>
+        <item>Ultra 0.5x (Sub-Pixel Precision)</item>
+    </string-array>
+
+    <string-array name="blur_sample_rate_values">
+        <item>2</item>
+        <item>1</item>
+        <item>0.5</item>
+    </string-array>
+
+    <!-- Spring Damping -->
+    <string-array name="spring_damping_entries">
+        <item>Fluid iOS Bouncy (Damping 0.70)</item>
+        <item>Balanced Natural (Damping 0.85 • Recommended)</item>
+        <item>Snappy OxygenOS Tactile (Damping 0.95)</item>
+    </string-array>
+
+    <string-array name="spring_damping_values">
+        <item>bouncy</item>
+        <item>balanced</item>
+        <item>snappy</item>
+    </string-array>
+
+    <!-- RAM Boost -->
     <string-array name="ram_boost_entries">
         <item>Disabled (Physical Only)</item>
         <item>+ 4 GB Liquid Expansion</item>
@@ -28,5 +84,61 @@
         <item>4</item>
         <item>8</item>
         <item>12</item>
+    </string-array>
+
+    <!-- Touch Sampling -->
+    <string-array name="touch_sampling_entries">
+        <item>240 Hz Standard Adaptive</item>
+        <item>360 Hz Ultra-Responsive</item>
+        <item>480 Hz Esports Touch Boost</item>
+    </string-array>
+
+    <string-array name="touch_sampling_values">
+        <item>240</item>
+        <item>360</item>
+        <item>480</item>
+    </string-array>
+
+    <!-- Thermal Profile -->
+    <string-array name="thermal_profile_entries">
+        <item>Dynamic Liquid (Optimized Thermals &amp; Battery)</item>
+        <item>Performance Focus (Sustained Clock Rates)</item>
+        <item>Liquid Extreme Turbo (Maximum GPU &amp; CPU Pacing)</item>
+    </string-array>
+
+    <string-array name="thermal_profile_values">
+        <item>dynamic</item>
+        <item>performance</item>
+        <item>extreme</item>
+    </string-array>
+
+    <!-- Aura Accent Presets -->
+    <string-array name="accent_preset_entries">
+        <item>OnePlus Crimson (#E60026)</item>
+        <item>Aether Cyan (#00F2FE)</item>
+        <item>Amethyst Violet (#A855F7)</item>
+        <item>Emerald Aurora (#10B981)</item>
+        <item>Solar Amber (#F59E0B)</item>
+    </string-array>
+
+    <string-array name="accent_preset_values">
+        <item>crimson</item>
+        <item>cyan</item>
+        <item>violet</item>
+        <item>emerald</item>
+        <item>amber</item>
+    </string-array>
+
+    <!-- Dark Mode Depth -->
+    <string-array name="dark_mode_depth_entries">
+        <item>Deep Titanium Obsidian (#0D111A • Recommended)</item>
+        <item>Pure OLED Midnight (#000000)</item>
+        <item>Frosted Slate (#161C28)</item>
+    </string-array>
+
+    <string-array name="dark_mode_depth_values">
+        <item>obsidian</item>
+        <item>oled</item>
+        <item>slate</item>
     </string-array>
 </resources>

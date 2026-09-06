@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 XephiraOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginBottom="16dp"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg_lab_glass_hero"
+    android:clipToOutline="true">
+
+    <!-- Top Status Indicator -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:background="@drawable/circle"
+            android:backgroundTint="@color/xephira_neon_cyan" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="SPATIAL OPTICS &amp; ENGINE ACTIVE"
+            android:textColor="@color/xephira_neon_cyan"
+            android:textSize="11sp"
+            android:letterSpacing="0.06"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Lab Hero Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Xephira Lab Studio"
+        android:textColor="@color/xephira_lab_text_primary"
+        android:textSize="22sp"
+        android:fontFamily="@*android:string/config_headlineFontFamily"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="OxygenOS 17 &amp; iOS 18 Aquamorphic Liquid Glass Engine"
+        android:textColor="@color/xephira_lab_text_secondary"
+        android:textSize="13sp" />
+
+    <!-- Live Telemetry Badges Strip -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <!-- Blur Badge -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hero_blur_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="28 dp"
+                android:textColor="@color/xephira_neon_cyan"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blur"
+                android:textColor="@color/xephira_lab_text_muted"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <!-- Kinetic Badge -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hero_spring_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="120 Hz"
+                android:textColor="@color/xephira_amber_gold"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spring"
+                android:textColor="@color/xephira_lab_text_muted"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <!-- Curvature Badge -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hero_curvature_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="n=4"
+                android:textColor="@color/xephira_aurora_green"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Squircle"
+                android:textColor="@color/xephira_lab_text_muted"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <!-- RAM Boost Badge -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hero_ram_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+12 GB"
+                android:textColor="@color/xephira_crimson_red"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Boost"
+                android:textColor="@color/xephira_lab_text_muted"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

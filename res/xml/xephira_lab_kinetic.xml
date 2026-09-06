@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 XephiraOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/header_core_parameters"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:key="pref_spring_dynamics"
+            android:title="@string/spring_dynamics_title"
+            android:summary="@string/spring_dynamics_summary"
+            android:defaultValue="true" />
+
+        <ListPreference
+            android:key="pref_spring_damping"
+            android:title="@string/spring_damping_title"
+            android:summary="@string/spring_damping_summary"
+            android:defaultValue="balanced"
+            android:entries="@array/spring_damping_entries"
+            android:entryValues="@array/spring_damping_values" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/header_advanced_tuning"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:key="pref_predictive_back_fluid"
+            android:title="@string/predictive_back_fluid_title"
+            android:summary="@string/predictive_back_fluid_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_touch_elasticity"
+            android:title="@string/touch_elasticity_title"
+            android:summary="@string/touch_elasticity_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

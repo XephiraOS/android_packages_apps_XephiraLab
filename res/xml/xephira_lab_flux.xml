@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 XephiraOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/header_core_parameters"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:key="pref_ram_boost"
+            android:title="@string/ram_boost_title"
+            android:summary="@string/ram_boost_summary"
+            android:defaultValue="12"
+            android:entries="@array/ram_boost_entries"
+            android:entryValues="@array/ram_boost_values" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_soc_governor"
+            android:title="@string/soc_governor_title"
+            android:summary="@string/soc_governor_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/header_advanced_tuning"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:key="pref_touch_sampling"
+            android:title="@string/touch_sampling_title"
+            android:summary="@string/touch_sampling_summary"
+            android:defaultValue="240"
+            android:entries="@array/touch_sampling_entries"
+            android:entryValues="@array/touch_sampling_values" />
+
+        <ListPreference
+            android:key="pref_thermal_profile"
+            android:title="@string/thermal_profile_title"
+            android:summary="@string/thermal_profile_summary"
+            android:defaultValue="dynamic"
+            android:entries="@array/thermal_profile_entries"
+            android:entryValues="@array/thermal_profile_values" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
