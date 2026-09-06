@@ -31,6 +31,9 @@ public class LockscreenFragment extends PreferenceFragmentCompat
     private static final String KEY_SHORTCUT_LEFT = "pref_shortcut_left";
     private static final String KEY_SHORTCUT_RIGHT = "pref_shortcut_right";
     private static final String KEY_FLUID_MUSIC = "pref_fluid_music";
+    private static final String KEY_SHOW_CHARGING_WATTAGE = "pref_show_charging_wattage";
+    private static final String KEY_SCRAMBLE_PIN = "pref_scramble_pin";
+    private static final String KEY_QUICK_UNLOCK = "pref_quick_unlock";
 
     private SwitchPreferenceCompat mDepthEnabledPref;
     private Preference mLaunchDepthStudioPref;
@@ -40,6 +43,9 @@ public class LockscreenFragment extends PreferenceFragmentCompat
     private ListPreference mShortcutLeftPref;
     private ListPreference mShortcutRightPref;
     private SwitchPreferenceCompat mFluidMusicPref;
+    private SwitchPreferenceCompat mShowChargingWattagePref;
+    private SwitchPreferenceCompat mScramblePinPref;
+    private SwitchPreferenceCompat mQuickUnlockPref;
 
     @Override
     public void onCreatePreferences(@Nullable Bundle savedInstanceState, @Nullable String rootKey) {
@@ -112,6 +118,27 @@ public class LockscreenFragment extends PreferenceFragmentCompat
             mFluidMusicPref.setChecked(fluid);
             mFluidMusicPref.setOnPreferenceChangeListener(this);
         }
+
+        mShowChargingWattagePref = findPreference(KEY_SHOW_CHARGING_WATTAGE);
+        if (mShowChargingWattagePref != null) {
+            boolean showWattage = Settings.System.getInt(cr, "show_charging_wattage", 1) == 1;
+            mShowChargingWattagePref.setChecked(showWattage);
+            mShowChargingWattagePref.setOnPreferenceChangeListener(this);
+        }
+
+        mScramblePinPref = findPreference(KEY_SCRAMBLE_PIN);
+        if (mScramblePinPref != null) {
+            boolean scramble = Settings.System.getInt(cr, "lockscreen_scramble_pin_layout", 0) == 1;
+            mScramblePinPref.setChecked(scramble);
+            mScramblePinPref.setOnPreferenceChangeListener(this);
+        }
+
+        mQuickUnlockPref = findPreference(KEY_QUICK_UNLOCK);
+        if (mQuickUnlockPref != null) {
+            boolean quickUnlock = Settings.Secure.getInt(cr, "lockscreen_quick_unlock_control", 1) == 1;
+            mQuickUnlockPref.setChecked(quickUnlock);
+            mQuickUnlockPref.setOnPreferenceChangeListener(this);
+        }
     }
 
     @Override
@@ -147,6 +174,18 @@ public class LockscreenFragment extends PreferenceFragmentCompat
         } else if (KEY_FLUID_MUSIC.equals(key)) {
             boolean enabled = (Boolean) newValue;
             Settings.Secure.putInt(cr, "lockscreen_fluid_music_artwork", enabled ? 1 : 0);
+            return true;
+        } else if (KEY_SHOW_CHARGING_WATTAGE.equals(key)) {
+            boolean enabled = (Boolean) newValue;
+            Settings.System.putInt(cr, "show_charging_wattage", enabled ? 1 : 0);
+            return true;
+        } else if (KEY_SCRAMBLE_PIN.equals(key)) {
+            boolean enabled = (Boolean) newValue;
+            Settings.System.putInt(cr, "lockscreen_scramble_pin_layout", enabled ? 1 : 0);
+            return true;
+        } else if (KEY_QUICK_UNLOCK.equals(key)) {
+            boolean enabled = (Boolean) newValue;
+            Settings.Secure.putInt(cr, "lockscreen_quick_unlock_control", enabled ? 1 : 0);
             return true;
         }
         return false;

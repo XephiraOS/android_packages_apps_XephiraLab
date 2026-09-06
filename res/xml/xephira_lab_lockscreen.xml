@@ -78,4 +78,28 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="TELEMETRY &amp; SECURITY"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:key="pref_show_charging_wattage"
+            android:title="SUPERVOOC Charging Telemetry"
+            android:summary="Display live charging wattage and fast-charge protocol on lockscreen"
+            android:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_scramble_pin"
+            android:title="Scramble PIN Layout"
+            android:summary="Shuffle digit positions on lockscreen to prevent shoulder-surfing"
+            android:defaultValue="false" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_quick_unlock"
+            android:title="Instant Quick PIN Unlock"
+            android:summary="Automatically unlock immediately when the correct PIN is completed without pressing enter"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
