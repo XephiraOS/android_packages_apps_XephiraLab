@@ -141,4 +141,38 @@
         <item>oled</item>
         <item>slate</item>
     </string-array>
+
+    <!-- Lockscreen Clock Styles -->
+    <string-array name="lockscreen_clock_style_entries">
+        <item>iOS 18 Depth Rounded (SF Pro • Recommended)</item>
+        <item>OnePlus Signature Headline (Red 1 Numeral)</item>
+        <item>Aether Spatial Glass (Cyan Refraction)</item>
+    </string-array>
+
+    <string-array name="lockscreen_clock_style_values">
+        <item>XEPHIRA_IOS_DEPTH</item>
+        <item>XEPHIRA_ONEPLUS_RED1</item>
+        <item>XEPHIRA_AETHER_SPATIAL</item>
+    </string-array>
+
+    <!-- Lockscreen Bottom Liquid Shortcuts -->
+    <string-array name="lockscreen_shortcut_entries">
+        <item>Flashlight</item>
+        <item>Camera</item>
+        <item>Calculator</item>
+        <item>Voice Recorder</item>
+        <item>Google Wallet</item>
+        <item>Sound / Mute Toggle</item>
+        <item>None</item>
+    </string-array>
+
+    <string-array name="lockscreen_shortcut_values">
+        <item>flashlight</item>
+        <item>camera</item>
+        <item>calculator</item>
+        <item>recorder</item>
+        <item>wallet</item>
+        <item>mute</item>
+        <item>none</item>
+    </string-array>
 </resources>

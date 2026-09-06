@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 XephiraOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="SPATIAL DEPTH ENGINE"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:key="pref_depth_wallpaper_enabled"
+            android:title="@string/lockscreen_depth_toggle_title"
+            android:summary="@string/lockscreen_depth_toggle_summary"
+            android:defaultValue="true" />
+
+        <Preference
+            android:key="pref_launch_depth_studio"
+            android:title="@string/lockscreen_depth_picker_title"
+            android:summary="@string/lockscreen_depth_picker_summary" />
+
+        <SeekBarPreference
+            android:key="pref_depth_occlusion_limit"
+            android:title="@string/lockscreen_depth_occlusion_title"
+            android:summary="@string/lockscreen_depth_occlusion_summary"
+            android:defaultValue="30"
+            android:max="60"
+            app:min="10"
+            app:showSeekBarValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_depth_parallax"
+            android:title="@string/lockscreen_parallax_title"
+            android:summary="@string/lockscreen_parallax_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="CLOCK TYPOGRAPHY"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:key="pref_clock_style"
+            android:title="@string/lockscreen_clock_style_title"
+            android:summary="@string/lockscreen_clock_style_summary"
+            android:defaultValue="XEPHIRA_IOS_DEPTH"
+            android:entries="@array/lockscreen_clock_style_entries"
+            android:entryValues="@array/lockscreen_clock_style_values" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="LIQUID SHORTCUTS &amp; MEDIA"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:key="pref_shortcut_left"
+            android:title="@string/lockscreen_shortcut_left_title"
+            android:defaultValue="flashlight"
+            android:entries="@array/lockscreen_shortcut_entries"
+            android:entryValues="@array/lockscreen_shortcut_values" />
+
+        <ListPreference
+            android:key="pref_shortcut_right"
+            android:title="@string/lockscreen_shortcut_right_title"
+            android:defaultValue="camera"
+            android:entries="@array/lockscreen_shortcut_entries"
+            android:entryValues="@array/lockscreen_shortcut_values" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_fluid_music"
+            android:title="@string/lockscreen_fluid_music_title"
+            android:summary="@string/lockscreen_fluid_music_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

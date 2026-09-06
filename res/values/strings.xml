@@ -76,4 +76,22 @@
     <string name="dark_mode_depth_summary">Deep Titanium Obsidian (#0D111A) vs. Pure OLED Midnight</string>
     <string name="statusbar_pill_title">Liquid Glass Status Bar Capsule</string>
     <string name="statusbar_pill_summary">Dynamic frosted pill enclosing clock, Wi-Fi, and battery telemetry</string>
+
+    <!-- 6. Lockscreen & Depth Studio -->
+    <string name="submenu_lockscreen_title">Lock Screen &amp; Spatial Depth</string>
+    <string name="submenu_lockscreen_summary">iOS 18 Depth Engine, dual-layer cutout isolation, custom clocks &amp; shortcuts</string>
+    <string name="lockscreen_depth_toggle_title">Spatial Depth Wallpaper Engine</string>
+    <string name="lockscreen_depth_toggle_summary">Render lockscreen clock behind wallpaper foreground subject</string>
+    <string name="lockscreen_depth_picker_title">Depth Wallpaper Studio</string>
+    <string name="lockscreen_depth_picker_summary">Browse dual-layer depth wallpapers and configure 3D lockscreen</string>
+    <string name="lockscreen_clock_style_title">Clock Typography Style</string>
+    <string name="lockscreen_clock_style_summary">Choose between iOS 18 Rounded, OnePlus Red 1, and Aether Spatial</string>
+    <string name="lockscreen_depth_occlusion_title">Subject Occlusion Threshold</string>
+    <string name="lockscreen_depth_occlusion_summary">Maximum percentage of clock typography that may be hidden behind subject</string>
+    <string name="lockscreen_parallax_title">Gyroscope 3D Parallax Tilt</string>
+    <string name="lockscreen_parallax_summary">Dynamic spatial motion offset based on device accelerometer</string>
+    <string name="lockscreen_shortcut_left_title">Left Bottom Liquid Shortcut</string>
+    <string name="lockscreen_shortcut_right_title">Right Bottom Liquid Shortcut</string>
+    <string name="lockscreen_fluid_music_title">Fluid Dynamic Music Art</string>
+    <string name="lockscreen_fluid_music_summary">Real-time full bleed ambient blur background with dynamic wave seeker</string>
 </resources>
