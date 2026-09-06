@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 XephiraOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="MATRIX GRID &amp; BLUR"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:key="pref_qs_columns"
+            android:title="@string/qs_tile_columns_title"
+            android:summary="@string/qs_tile_columns_summary"
+            android:defaultValue="3"
+            android:entries="@array/qs_tile_columns_entries"
+            android:entryValues="@array/qs_tile_columns_values" />
+
+        <SeekBarPreference
+            android:key="pref_qs_blur"
+            android:title="@string/qs_background_blur_title"
+            android:summary="@string/qs_background_blur_summary"
+            android:defaultValue="32"
+            android:max="48"
+            app:min="0"
+            app:showSeekBarValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_qs_specular"
+            android:title="@string/qs_specular_highlight_title"
+            android:summary="@string/qs_specular_highlight_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="SLIDERS &amp; ANIMATIONS"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:key="pref_qs_vertical_sliders"
+            android:title="@string/qs_vertical_sliders_title"
+            android:summary="@string/qs_vertical_sliders_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_qs_brightness_auto_btn"
+            android:title="@string/qs_brightness_auto_button_title"
+            android:summary="@string/qs_brightness_auto_button_summary"
+            android:defaultValue="true" />
+
+        <ListPreference
+            android:key="pref_qs_tile_anim"
+            android:title="@string/qs_tile_animation_title"
+            android:summary="@string/qs_tile_animation_summary"
+            android:defaultValue="spring_pulse"
+            android:entries="@array/qs_tile_animation_entries"
+            android:entryValues="@array/qs_tile_animation_values" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_qs_running_services"
+            android:title="@string/qs_running_services_title"
+            android:summary="@string/qs_running_services_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

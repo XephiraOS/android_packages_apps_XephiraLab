@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 XephiraOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="44dp"
+    android:height="44dp"
+    android:viewportWidth="44"
+    android:viewportHeight="44">
+    <!-- Aquamorphic Crimson / Electric Coral Squircle Backplate -->
+    <path
+        android:fillColor="#E60026"
+        android:pathData="M22,2 C9,2 2,9 2,22 C2,35 9,42 22,42 C35,42 42,35 42,22 C42,9 35,2 22,2 Z" />
+    <!-- Swipe / Gesture Fluid Hand -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M21,11 C21,9.9 21.9,9 23,9 C24.1,9 25,9.9 25,11 L25,20.2 C25.6,20.4 26.2,20.8 26.6,21.3 L29.5,24.2 C29.9,24.6 30,25.2 29.8,25.7 L28.2,30.3 C27.8,31.3 26.9,32 25.8,32 L19,32 C17.3,32 16,30.7 16,29 L16,23.5 C16,22.7 16.3,21.9 16.9,21.3 L18.6,19.6 L21,21.2 L21,11 Z" />
+</vector>

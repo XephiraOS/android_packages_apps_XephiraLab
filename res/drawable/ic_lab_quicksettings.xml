@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 XephiraOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="44dp"
+    android:height="44dp"
+    android:viewportWidth="44"
+    android:viewportHeight="44">
+    <!-- Aquamorphic Amber / Radiant Solar Squircle Backplate -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M22,2 C9,2 2,9 2,22 C2,35 9,42 22,42 C35,42 42,35 42,22 C42,9 35,2 22,2 Z" />
+    <!-- 2x2 Matrix Quick Settings Tiles -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M13,13 L19,13 C20.1,13 21,13.9 21,15 L21,19 C21,20.1 20.1,21 19,21 L13,21 C11.9,21 11,20.1 11,19 L11,15 C11,13.9 11.9,13 13,13 Z M25,13 L31,13 C32.1,13 33,13.9 33,15 L33,19 C33,20.1 32.1,21 31,21 L25,21 C23.9,21 23,20.1 23,19 L23,15 C23,13.9 23.9,13 25,13 Z M13,23 L19,23 C20.1,23 21,23.9 21,25 L21,29 C21,30.1 20.1,31 19,31 L13,31 C11.9,31 11,30.1 11,29 L11,25 C11,23.9 11.9,23 13,23 Z M25,23 L31,23 C32.1,23 33,23.9 33,25 L33,29 C33,30.1 32.1,31 31,31 L25,31 C23.9,31 23,30.1 23,29 L23,25 C23,23.9 23.9,23 25,23 Z" />
+</vector>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 XephiraOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="TOUCH &amp; MOTION GESTURES"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:key="pref_three_finger_screenshot"
+            android:title="@string/gesture_three_finger_title"
+            android:summary="@string/gesture_three_finger_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_double_tap_sleep"
+            android:title="@string/gesture_double_tap_sleep_title"
+            android:summary="@string/gesture_double_tap_sleep_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="BUTTON &amp; NAVIGATION"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:key="pref_torch_power"
+            android:title="@string/gesture_torch_power_title"
+            android:summary="@string/gesture_torch_power_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_hide_nav_pill"
+            android:title="@string/gesture_hide_pill_title"
+            android:summary="@string/gesture_hide_pill_summary"
+            android:defaultValue="false" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_screen_off_music"
+            android:title="@string/gesture_screen_off_music_title"
+            android:summary="@string/gesture_screen_off_music_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

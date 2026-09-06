@@ -175,4 +175,62 @@
         <item>mute</item>
         <item>none</item>
     </string-array>
+
+    <!-- Battery Styles -->
+    <string-array name="statusbar_battery_style_entries">
+        <item>iOS 18 Liquid Pill (Recommended)</item>
+        <item>Continuous Circle (Aquamorphic)</item>
+        <item>Dotted Dynamic Circle</item>
+        <item>Minimal Text Percentage Only</item>
+        <item>Hidden</item>
+    </string-array>
+
+    <string-array name="statusbar_battery_style_values">
+        <item>ios_pill</item>
+        <item>circle</item>
+        <item>dotted_circle</item>
+        <item>text_only</item>
+        <item>hidden</item>
+    </string-array>
+
+    <!-- Battery Percentage Placement -->
+    <string-array name="statusbar_battery_percent_entries">
+        <item>Inside Battery Icon</item>
+        <item>Next to Battery Icon</item>
+        <item>Hidden</item>
+    </string-array>
+
+    <string-array name="statusbar_battery_percent_values">
+        <item>inside</item>
+        <item>outside</item>
+        <item>hidden</item>
+    </string-array>
+
+    <!-- QS Tile Matrix Columns -->
+    <string-array name="qs_tile_columns_entries">
+        <item>2 Columns (Large Squircle Cards)</item>
+        <item>3 Columns (Standard Aquamorphic • Recommended)</item>
+        <item>4 Columns (Dense Compact Matrix)</item>
+    </string-array>
+
+    <string-array name="qs_tile_columns_values">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <!-- QS Tile Animations -->
+    <string-array name="qs_tile_animation_entries">
+        <item>iOS 18 Fluid Spring Pulse (Recommended)</item>
+        <item>3D Card Flip</item>
+        <item>360 Smooth Rotation</item>
+        <item>Standard Ripple</item>
+    </string-array>
+
+    <string-array name="qs_tile_animation_values">
+        <item>spring_pulse</item>
+        <item>flip_3d</item>
+        <item>rotate_360</item>
+        <item>none</item>
+    </string-array>
 </resources>

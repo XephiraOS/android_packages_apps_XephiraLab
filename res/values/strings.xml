@@ -94,4 +94,54 @@
     <string name="lockscreen_shortcut_right_title">Right Bottom Liquid Shortcut</string>
     <string name="lockscreen_fluid_music_title">Fluid Dynamic Music Art</string>
     <string name="lockscreen_fluid_music_summary">Real-time full bleed ambient blur background with dynamic wave seeker</string>
+
+    <!-- 7. Status Bar & Dynamic Capsule -->
+    <string name="submenu_statusbar_title">Status Bar &amp; Dynamic Capsule</string>
+    <string name="submenu_statusbar_summary">Island capsule pill, signature Red 1 clock, battery styles, network traffic</string>
+    <string name="statusbar_island_title">Dynamic Status Capsule (Island)</string>
+    <string name="statusbar_island_summary">Expandable fluid pill for media playback, timer, call state, and charging</string>
+    <string name="statusbar_oneplus_red_title">OxygenOS Red 1 Clock Numeral</string>
+    <string name="statusbar_oneplus_red_summary">Highlight the numeral 1 in clock time with signature crimson (#E60026)</string>
+    <string name="statusbar_battery_style_title">Battery Indicator Style</string>
+    <string name="statusbar_battery_style_summary">Choose iOS 18 Pill, Circle, Dotted Circle, or Minimal Text</string>
+    <string name="statusbar_battery_percent_title">Battery Percentage Display</string>
+    <string name="statusbar_battery_percent_summary">Inside battery icon, next to icon, or hidden</string>
+    <string name="statusbar_network_traffic_title">Network Traffic Monitor</string>
+    <string name="statusbar_network_traffic_summary">Display real-time upload/download throughput in status bar capsule</string>
+    <string name="statusbar_combined_signal_title">Combined Network Signal Icons</string>
+    <string name="statusbar_combined_signal_summary">Stack Wi-Fi and Cellular into a compact dual-layer indicator</string>
+    <string name="statusbar_corner_padding_title">Curved Screen Edge Padding</string>
+    <string name="statusbar_corner_padding_summary">Adjust horizontal margins to match device physical display curvature</string>
+
+    <!-- 8. Quick Settings & Aquamorphic Matrix -->
+    <string name="submenu_quicksettings_title">Quick Settings &amp; Aquamorphic Grid</string>
+    <string name="submenu_quicksettings_summary">Tile matrix columns, SurfaceFlinger blur, fluid vertical sliders, tile animations</string>
+    <string name="qs_tile_columns_title">Quick Settings Tile Columns</string>
+    <string name="qs_tile_columns_summary">Select grid layout: 2x2, 2x3, 3x3, or 3x4 tiles</string>
+    <string name="qs_background_blur_title">SurfaceFlinger QS Background Blur</string>
+    <string name="qs_background_blur_summary">Real-time GPU Gaussian blur radius behind expanded QS panel</string>
+    <string name="qs_specular_highlight_title">Specular Rim Highlighting</string>
+    <string name="qs_specular_highlight_summary">Luminous refractive border on active squircle tiles</string>
+    <string name="qs_vertical_sliders_title">Fluid Vertical Sliders</string>
+    <string name="qs_vertical_sliders_summary">Thick spring-animated vertical sliders for brightness and volume</string>
+    <string name="qs_brightness_auto_button_title">Embedded Auto-Brightness Toggle</string>
+    <string name="qs_brightness_auto_button_summary">Tactile A button integrated inside the brightness slider bar</string>
+    <string name="qs_tile_animation_title">Tile Press Animation Style</string>
+    <string name="qs_tile_animation_summary">Dynamic iOS spring pulse, 3D flip, or smooth rotation on tile click</string>
+    <string name="qs_running_services_title">Running Services Quick Monitor</string>
+    <string name="qs_running_services_summary">Display live active background memory processes in QS footer</string>
+
+    <!-- 9. Gestures & Fluid Navigation -->
+    <string name="submenu_gestures_title">Gestures &amp; Navigation Dynamics</string>
+    <string name="submenu_gestures_summary">Three-finger screenshot, double-tap sleep, screen-off music, back sensitivity</string>
+    <string name="gesture_three_finger_title">Three-Finger Swipe Screenshot</string>
+    <string name="gesture_three_finger_summary">Swipe down with 3 fingers to capture full or partial screenshot</string>
+    <string name="gesture_double_tap_sleep_title">Double-Tap to Sleep</string>
+    <string name="gesture_double_tap_sleep_summary">Double tap status bar or empty lock screen space to turn off screen</string>
+    <string name="gesture_torch_power_title">Long-Press Power Button Torch</string>
+    <string name="gesture_torch_power_summary">Hold power button when screen is off to toggle flashlight</string>
+    <string name="gesture_hide_pill_title">Full-Screen Immersive Gestures</string>
+    <string name="gesture_hide_pill_summary">Hide navigation bar pill handle while preserving full edge swipe gestures</string>
+    <string name="gesture_screen_off_music_title">Screen-Off Music Track Skip</string>
+    <string name="gesture_screen_off_music_summary">Long press volume rocker to skip songs while display is asleep</string>
 </resources>

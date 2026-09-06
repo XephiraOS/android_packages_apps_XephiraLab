@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 XephiraOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="DYNAMIC CAPSULE &amp; CLOCK"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:key="pref_statusbar_island"
+            android:title="@string/statusbar_island_title"
+            android:summary="@string/statusbar_island_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_statusbar_oneplus_red"
+            android:title="@string/statusbar_oneplus_red_title"
+            android:summary="@string/statusbar_oneplus_red_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="BATTERY INDICATOR"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:key="pref_battery_style"
+            android:title="@string/statusbar_battery_style_title"
+            android:summary="@string/statusbar_battery_style_summary"
+            android:defaultValue="ios_pill"
+            android:entries="@array/statusbar_battery_style_entries"
+            android:entryValues="@array/statusbar_battery_style_values" />
+
+        <ListPreference
+            android:key="pref_battery_percent"
+            android:title="@string/statusbar_battery_percent_title"
+            android:summary="@string/statusbar_battery_percent_summary"
+            android:defaultValue="inside"
+            android:entries="@array/statusbar_battery_percent_entries"
+            android:entryValues="@array/statusbar_battery_percent_values" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="NETWORK &amp; CURVATURE"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:key="pref_network_traffic"
+            android:title="@string/statusbar_network_traffic_title"
+            android:summary="@string/statusbar_network_traffic_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_combined_signal"
+            android:title="@string/statusbar_combined_signal_title"
+            android:summary="@string/statusbar_combined_signal_summary"
+            android:defaultValue="false" />
+
+        <SeekBarPreference
+            android:key="pref_statusbar_corner_padding"
+            android:title="@string/statusbar_corner_padding_title"
+            android:summary="@string/statusbar_corner_padding_summary"
+            android:defaultValue="16"
+            android:max="32"
+            app:min="0"
+            app:showSeekBarValue="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

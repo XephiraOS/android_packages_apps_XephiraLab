@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 XephiraOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="44dp"
+    android:height="44dp"
+    android:viewportWidth="44"
+    android:viewportHeight="44">
+    <!-- Aquamorphic Luminous Emerald Squircle Backplate -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M22,2 C9,2 2,9 2,22 C2,35 9,42 22,42 C35,42 42,35 42,22 C42,9 35,2 22,2 Z" />
+    <!-- Dynamic Island / Status Bar Capsule -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M16,16 L28,16 C30.2,16 32,17.8 32,20 L32,20 C32,22.2 30.2,24 28,24 L16,24 C13.8,24 12,22.2 12,20 L12,20 C12,17.8 13.8,16 16,16 Z" />
+    <!-- Battery & Signal Dots -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M14,28 A2,2 0 1,1 14,32 A2,2 0 1,1 14,28 Z M22,28 A2,2 0 1,1 22,32 A2,2 0 1,1 22,28 Z M30,28 A2,2 0 1,1 30,32 A2,2 0 1,1 30,28 Z" />
+</vector>

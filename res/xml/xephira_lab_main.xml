@@ -71,6 +71,33 @@
             android:summary="@string/submenu_lockscreen_summary"
             android:fragment="org.xephira.lab.fragments.LockscreenFragment" />
 
+        <!-- 7. Status Bar & Dynamic Capsule -->
+        <Preference
+            android:key="sub_statusbar"
+            android:order="7"
+            android:icon="@drawable/ic_lab_statusbar"
+            android:title="@string/submenu_statusbar_title"
+            android:summary="@string/submenu_statusbar_summary"
+            android:fragment="org.xephira.lab.fragments.StatusBarFragment" />
+
+        <!-- 8. Quick Settings & Aquamorphic Grid -->
+        <Preference
+            android:key="sub_quicksettings"
+            android:order="8"
+            android:icon="@drawable/ic_lab_quicksettings"
+            android:title="@string/submenu_quicksettings_title"
+            android:summary="@string/submenu_quicksettings_summary"
+            android:fragment="org.xephira.lab.fragments.QuickSettingsFragment" />
+
+        <!-- 9. Gestures & Fluid Navigation -->
+        <Preference
+            android:key="sub_gestures"
+            android:order="9"
+            android:icon="@drawable/ic_lab_gestures"
+            android:title="@string/submenu_gestures_title"
+            android:summary="@string/submenu_gestures_summary"
+            android:fragment="org.xephira.lab.fragments.GesturesFragment" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
