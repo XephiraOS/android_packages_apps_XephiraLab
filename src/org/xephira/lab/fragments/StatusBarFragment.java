@@ -24,6 +24,7 @@ public class StatusBarFragment extends PreferenceFragmentCompat
 
     private static final String KEY_ISLAND = "pref_statusbar_island";
     private static final String KEY_ONEPLUS_RED = "pref_statusbar_oneplus_red";
+    private static final String KEY_XEPHIRA_LOGO = "pref_statusbar_xephira_logo";
     private static final String KEY_BATTERY_STYLE = "pref_battery_style";
     private static final String KEY_BATTERY_PERCENT = "pref_battery_percent";
     private static final String KEY_NETWORK_TRAFFIC = "pref_network_traffic";
@@ -32,6 +33,7 @@ public class StatusBarFragment extends PreferenceFragmentCompat
 
     private SwitchPreferenceCompat mIslandPref;
     private SwitchPreferenceCompat mOnePlusRedPref;
+    private SwitchPreferenceCompat mXephiraLogoPref;
     private ListPreference mBatteryStylePref;
     private ListPreference mBatteryPercentPref;
     private SwitchPreferenceCompat mNetworkTrafficPref;
@@ -55,6 +57,13 @@ public class StatusBarFragment extends PreferenceFragmentCompat
             boolean enabled = Settings.System.getInt(cr, "status_bar_clock_oneplus_red", 1) == 1;
             mOnePlusRedPref.setChecked(enabled);
             mOnePlusRedPref.setOnPreferenceChangeListener(this);
+        }
+
+        mXephiraLogoPref = findPreference(KEY_XEPHIRA_LOGO);
+        if (mXephiraLogoPref != null) {
+            boolean enabled = Settings.System.getInt(cr, "status_bar_xephira_logo_style", 1) == 1;
+            mXephiraLogoPref.setChecked(enabled);
+            mXephiraLogoPref.setOnPreferenceChangeListener(this);
         }
 
         mBatteryStylePref = findPreference(KEY_BATTERY_STYLE);
@@ -107,6 +116,10 @@ public class StatusBarFragment extends PreferenceFragmentCompat
         } else if (KEY_ONEPLUS_RED.equals(key)) {
             boolean enabled = (Boolean) newValue;
             Settings.System.putInt(cr, "status_bar_clock_oneplus_red", enabled ? 1 : 0);
+            return true;
+        } else if (KEY_XEPHIRA_LOGO.equals(key)) {
+            boolean enabled = (Boolean) newValue;
+            Settings.System.putInt(cr, "status_bar_xephira_logo_style", enabled ? 1 : 0);
             return true;
         } else if (KEY_BATTERY_STYLE.equals(key)) {
             String style = (String) newValue;

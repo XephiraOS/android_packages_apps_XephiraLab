@@ -22,6 +22,12 @@
             android:summary="@string/statusbar_oneplus_red_summary"
             android:defaultValue="true" />
 
+        <SwitchPreferenceCompat
+            android:key="pref_statusbar_xephira_logo"
+            android:title="Status Bar Xephira Logo"
+            android:summary="Display canonical crossing-petals Xephira X logo next to status bar clock"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
