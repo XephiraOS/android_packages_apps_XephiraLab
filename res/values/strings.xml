@@ -23,6 +23,12 @@
     <string name="submenu_aura_title">Aura Accent &amp; Theming Studio</string>
     <string name="submenu_aura_summary">Signature accents, spatial glass dark mode depth, status bar capsule</string>
 
+    <!-- Category Titles -->
+    <string name="category_liquid_optics">Liquid Glass Optics</string>
+    <string name="category_spring_physics">Spatial Kinetic Physics</string>
+    <string name="category_curvature_engine">Continuous Curvature Studio</string>
+    <string name="category_flux_hardware">Flux Silicon &amp; Memory</string>
+
     <!-- Section Headers -->
     <string name="header_core_parameters">Core Parameters</string>
     <string name="header_advanced_tuning">Advanced Tuning</string>
